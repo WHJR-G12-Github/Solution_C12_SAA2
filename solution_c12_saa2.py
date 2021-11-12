@@ -27,7 +27,7 @@ class Bird:
 class Pipe:
     #bpipe=pygame.Rect(250,400,40,320)
     def __init__(self,x):
-        # Assign a fixed value to the variable 'self.height' 
+        # Assigning a fixed value to the variable 'self.height' 
         self.height=250
         self.tpipe=pygame.Rect(x,self.height-400,40,320)
         self.bpipe=pygame.Rect(x,self.height+100,40,500)
