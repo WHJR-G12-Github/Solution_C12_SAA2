@@ -29,8 +29,8 @@ class Pipe:
     def __init__(self,x):
         # Assigning a fixed value to the variable 'self.height' 
         self.height=250
-        self.tpipe=pygame.Rect(x,self.height-400,40,400)
-        self.bpipe=pygame.Rect(x,self.height+150,40,400)
+        self.tpipe=pygame.Rect(x,self.height-400,40,300)
+        self.bpipe=pygame.Rect(x,self.height+150,40,300)
     def display(self):
       screen.blit(images["pipe"],self.bpipe)
       screen.blit(images["invertedpipe"],self.tpipe)
